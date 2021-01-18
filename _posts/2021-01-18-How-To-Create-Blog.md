@@ -1,9 +1,8 @@
 ---
-title: Another Sample Page
+title: How To Create The Github Page Blog With Jekyll
 published: true
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](another-page).
 
