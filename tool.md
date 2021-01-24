@@ -7,7 +7,7 @@ title: Tool
 > 提供对Java、JavaScript、CSS、HTML、JSON、SQL的代码格式化功能。
 
 ## [](#header-2)2. [二维条形码生成](https://tool.oschina.net/qr)
-> 能够提供多参数设置生成QR码，可以对输出图像格式（GIF/JPEG/PNG），纠错级别，类型，边缘留白（Margin），原胞大小进行设置
+> 能够提供多参数设置生成QR码，可以对输出图像格式（GIF/JPEG/PNG），纠错级别，类型，边缘留白（Margin），大小进行设置
 
 ## [](#header-3)3. [字符对照表](https://tool.oschina.net/commons)
 > 提供常用的对照表，比如ASCII，HTML转义字符，RGB颜色，Http Content-type等。
