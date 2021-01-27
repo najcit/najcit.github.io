@@ -1,5 +1,5 @@
 ---
-title: How To Use Github Pages
+title: 如何使用 Github Pages
 published: true
 ---
 
