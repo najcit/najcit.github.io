@@ -29,3 +29,6 @@ title: Tool
 
 ## [](#header-9)9. [新冠肺炎症状自查](https://covid19.buyaocha.com/)
 > 新型肺炎初期症状自查
+
+## [](#header-10)10. [常用语言在线编译器](http://www.dooccn.com)
+> 多种语言的在线代码编译器, 如 php, python, C#, C++, Rust等
