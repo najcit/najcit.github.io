@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tool
+title: 工具
 ---
 
 ## [](#header-1)1. [代码格式化](https://tool.oschina.net/codeformat)
