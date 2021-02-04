@@ -1,7 +1,6 @@
 ---
 title: 如何免费地创建一个博客
 published: true
-categories: [stock, travel]
 ---
 
 
