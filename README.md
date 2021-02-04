@@ -1,1 +1,1 @@
-# najcit.github.io
+# Najc's blog

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% assign posts = site.categories[page.category] %}
+
+{% if posts %}
+  {% capture lastyear %}{{ posts[0].date | date: '%Y' }}{% endcapture %}
+  <h3>{{ lastyear }}</h3>
+{% endif %}
+
+{%for post in posts %}
+  {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% if currentyear != lastyear %}
+    {% capture lastyear %}{{ currentyear }}{% endcapture %}
+  <h3>{{ lastyear }}</h3>
+  {% endif %}
+  <ul>
+    <li>
+      <time>{{ post.date | date:"%d %b" }} - </time>
+      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+    </li>
+  </ul>
+{% endfor %}
