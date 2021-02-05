@@ -1,5 +1,5 @@
 ---
-title: 记录 15 个顶级 Python 库
+title: 15个顶级 Python 库
 published: true
 ---
 

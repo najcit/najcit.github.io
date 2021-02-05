@@ -32,3 +32,6 @@ title: 工具
 
 ## 10. [常用语言在线编译器](http://www.dooccn.com)
 > 多种语言的在线代码编译器, 如 php, python, C#, C++, Rust等
+
+## 11. [图片转文字](http://imagetotxt.com/)
+> 在线图片文字识别，支持JPG,JPEG,PNG,BMP,TIFF,PDF等多种格式

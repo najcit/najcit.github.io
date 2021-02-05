@@ -1,7 +1,6 @@
 ---
 title: Sample Page
 published: true
-categories: [stock, travel]
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
