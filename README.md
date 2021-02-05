@@ -1,1 +1,1 @@
-# Najc's blog
+# [Najc's blog](https://www.najc.top)
