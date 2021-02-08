@@ -1,7 +1,8 @@
 ---
 title: 学习股票 - 科创板
 published: true
-categories: [stock]
+categories: [invest]
+tags: [stock]
 ---
 
 **科创板** 中国版的"纳斯达克"  

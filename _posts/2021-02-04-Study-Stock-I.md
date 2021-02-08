@@ -1,7 +1,8 @@
 ---
 title: 学习股票 - 注册制
 published: true
-categories: [stock]
+categories: [invest]
+tags: [stock]
 ---
 
 **注册制**  
