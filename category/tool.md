@@ -35,3 +35,6 @@ title: 工具
 
 ## 11. [图片转文字](http://imagetotxt.com/)
 > 在线图片文字识别，支持JPG,JPEG,PNG,BMP,TIFF,PDF等多种格式
+
+## 12. [在线工具](http://tools.bugscaner.com/)
+> 各种各样的工具网站，站长工具，SEO工具，识别类工具等
