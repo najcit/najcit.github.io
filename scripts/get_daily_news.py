@@ -58,3 +58,4 @@ if __name__ == "__main__":
     create_today_news_post() 
     for obj in objs:
         download_news_text(obj[0], obj[1], obj[2])
+    driver.close()
