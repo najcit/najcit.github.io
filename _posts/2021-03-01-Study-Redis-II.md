@@ -39,9 +39,14 @@ Redis 和 MySQL 的区别
 > 2. MySQL 将数据持久化到硬盘，但读取数据慢，而 Redis 将数据先存储在缓存中，读取速度快，最后按需要可以选择持久化到硬盘。
 > 3. Mysql 作为持久化数据库，每次访问都要在硬盘上进行 I/O 操作。频繁访问数据库会在反复连接数据库上花费大量时间。 Redis 则会在缓存区存储大量频繁访问的数据，提高性能。
 
-Redis 集群策略
-
+Redis 和 Memcached 的比较
+> 1. Memcached 所有的值均是简单的字符串，Redis 作为其替代者，支持更为丰富的数据类型
+> 2. Redis 的速度比 Memcached 快很多
+> 3. Redis 可以持久化其数据
 
 Redis 主从复制
-> Redis支持主从的模式。原则：Master会将数据同步到slave，而slave不会将数据同步到master。Slave启动时会连接master来同步数据。
+> Redis支持主从的模式。原则：Master 会将数据同步到slave，而slave不会将数据同步到master。Slave启动时会连接master来同步数据。
 > 这是一个典型的分布式读写分离模型。我们可以利用master来插入数据，slave提供检索服务。这样可以有效减少单个机器的并发访问数量
+
+
+Redis 集群策略
