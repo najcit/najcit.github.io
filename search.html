@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>搜索</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.js" crossorigin="anonymous"></script>
+    <script>
+	    function SearchInBaidu() {
+		    window.location.href = 'https://www.baidu.com/s?wd=site:www.baidu.com ' + $('#kw').val()
+		}
+	    function SearchInTieBai() {
+		    window.location.href = 'https://www.baidu.com/s?wd=site:tieba.baidu.com ' + $('#kw').val()
+		}
+		function SearchInZhihu() {
+		    window.location.href = 'https://www.zhihu.com/search?q= ' + $('#kw').val()
+		}
+		function SearchInJuejin() {
+		    window.location.href = 'https://www.baidu.com/s?wd=site:www.juejin.cn ' + $('#kw').val()
+		}
+		function SearchInDouban() {
+		    window.location.href = 'https://www.baidu.com/s?wd=site:www.douban.com ' + $('#kw').val()
+		}
+	    function SearchInWeibo() {
+		    window.location.href = 'https://s.weibo.com/weibo?q= ' + $('#kw').val()
+		}
+		function SearchInCnblogs() {
+		    window.location.href = 'https://www.baidu.com/s?wd=site:www.cnblogs.com ' + $('#kw').val()
+		}
+		function SearchInGitHub() {
+		    window.location.href = 'https://github.com/search?q= ' + $('#kw').val()
+		}
+	</script>
+</head>
+
+<body>
+    <div class="text-center container-fluid" style="padding-top:15vh;">
+        <div>
+            <img class="img-thumbnail" src="/images/najc.png">
+        </div>
+        <div class="row" style="padding-top:10px;">
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="input-group input-group-lg">
+                    <input id="kw" type="text" class="form-control" aria-label="...">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">搜索 <span class="caret"></span></button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="javascript:void(0);" onclick="SearchInBaidu()">百度</a></li>
+                            <li><a href="javascript:void(0);" onclick="SearchInTieBai()">贴吧</a></li>
+                            <li><a href="javascript:void(0);" onclick="SearchInZhihu()">知乎</a></li>
+                            <li><a href="javascript:void(0);" onclick="SearchInJuejin()">掘金</a></li>
+                            <li><a href="javascript:void(0);" onclick="SearchInWeibo()">微博</a></li>
+                            <li><a href="javascript:void(0);" onclick="SearchInDouban()">豆瓣</a></li>
+                            <li><a href="javascript:void(0);" onclick="SearchInCnblogs()">博客园</a></li>
+                            <li><a href="javascript:void(0);" onclick="SearchInCnblogs()">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+</body>
+
+</html>
