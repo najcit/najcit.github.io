@@ -1,11 +1,7 @@
 <footer>
-  <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
-    <span>
-    	<b>{{ site.owner }}</b>
-    </span>
-    {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-    <span>
-    	© {{ currentyear }}
-    </span>
-  </a>
+  <p>
+	{{ site.owner }} {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %} 
+	© {{ currentyear }}
+  </p>
+  <p>皖ICP备18001496号</p>
 </footer>
