@@ -3,7 +3,7 @@ layout: default
 title: 要做的事情清单
 ---
 
-# Todo List 
+# Todo List
 1. 重要不紧急
 	* 小说 杀手
 	* 小说 见家长
@@ -14,21 +14,25 @@ title: 要做的事情清单
 		- Go：https://xai.lanzous.com/b0eptihti
 		- Java：https://xai.lanzous.com/b0eprkyzg
 		- Python：https://xai.lanzous.com/b0epqonbe
+	* 常用工作工具软件总结
+		- sublimt 技巧总结
 
 2. 重要紧急
+	* 准备面试 - 容器 Docker
 	* 准备面试 - 消息队列
 	* 准备面试 - 缓存数据库 Redis
 	* 准备面试 - 数据库 Mysql
-	* 准备面试 - 网络框架 nanomsg 
+	* 准备面试 - 网络框架 nanomsg
 	* 准备面试 - 消息队列 Redis nanomsg
 	* 准备面试 - 负载均衡 Nginx
-	* 准备面试 - 容器 Dock
 	* 准备面试 - 高性能IO模式 Reactor Proactor
-	* 准备面试 - 网络框架 Ace 
+	* 准备面试 - 网络框架 Ace
 
 3. 不重要不紧急
 	* Windows 基本操作
 		- color 命令
+	* 做一个培训网站 类似 C语言中文网
+	* 学习前端
 
 4. 不重要紧急
 	* 完善搜索页面
