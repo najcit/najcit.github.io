@@ -16,6 +16,7 @@ def collect_news_post(url):
         print(date, title, url)
         if (title.find("2021") != -1):
             objs.append((date, title, url))
+    driver.close()
 
 def download_news_text(date, title, url):
     driver.get(url)
@@ -39,6 +40,7 @@ categories: [news]
 ''')
     f.write(content)
     f.close()
+    driver.close()
 
 def create_today_news_post():
     today = str(datetime.date.today())[-5:]
@@ -51,6 +53,7 @@ def create_today_news_post():
         url = element.find_element_by_tag_name("a").get_property("href")
         if date == today:
             objs.append((date, title, url))
+    driver.close()
 
 if __name__ == "__main__":
     # collect_news_post('http://www.xwlbo.com/txt.html')
@@ -58,4 +61,4 @@ if __name__ == "__main__":
     create_today_news_post() 
     for obj in objs:
         download_news_text(obj[0], obj[1], obj[2])
-    driver.close()
+    driver.quit()
