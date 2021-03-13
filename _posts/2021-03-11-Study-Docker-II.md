@@ -26,3 +26,36 @@ Docker 容器（Container）
 > * Docker 利用容器独立运行一个或一组应用（服务）
 > * 每个容器之间是相互隔离的
 > * 它可以被启用、开始、停止、删除
+
+Docker 主机（HOST）
+> * 一个物理机或虚拟机
+> * 用于运行 Docker 守护进程和多个容器
+> * 可存放多个镜像
+> * 也称为宿主机，node节点
+
+Docker 守护程序（daemon）
+> * 监听 Docker API 请求
+> * 也会管理 Docker 对象，如：镜像、容器、网络、卷
+> * 守护程序还可以与其他守护程序通信以管理 Docker 服务
+
+Docker 客户端（client）
+> * 客户端使用 Docker 命令或其他工具调用 Docker API
+> * 当然也可以在 HOST 直接敲 Docker 命令
+> * 客户端可以与多个 Docker 守护程序通信
+
+Docker 镜像加速
+> * 使用国内的镜像源加速
+> * 复制以下代码执行
+```sh
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["http://hub-mirror.c.163.com",
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://reg-mirror.qiniu.com"
+  ]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```

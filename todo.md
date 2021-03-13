@@ -15,7 +15,8 @@ title: 要做的事情清单
 		- Java：https://xai.lanzous.com/b0eprkyzg
 		- Python：https://xai.lanzous.com/b0epqonbe
 	* 常用工作工具软件总结
-		- sublimt 技巧总结
+		- sublime
+		- vim
 
 2. 重要紧急
 	* 准备面试 - 容器 Docker
