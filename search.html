@@ -8,40 +8,43 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.js" crossorigin="anonymous"></script>
     <script>
-    	function Search(event) {
-			var e = event || window.event || arguments.callee.caller.arguments[0];
-	             if(e && e.keyCode == 13) { // enter 键
-	                  // alert("此处回车触发搜索事件");
-	                  SearchInBaidu()
-	             }
-    	}
-	    function SearchInBaidu() {
-		    window.location.href = 'https://www.baidu.com/s?wd= ' + $('#kw').val()
-		}
-	    function SearchInTieBai() {
-		    window.location.href = 'https://www.baidu.com/s?wd=site:tieba.baidu.com ' + $('#kw').val()
-		}
-		function SearchInZhihu() {
-		    window.location.href = 'https://www.zhihu.com/search?q=' + $('#kw').val()
-		}
-		function SearchInJuejin() {
-		    window.location.href = 'https://juejin.cn/search?query=' + $('#kw').val()
-		}
-		function SearchInDouban() {
-		    window.location.href = 'https://www.baidu.com/s?wd=site:www.douban.com ' + $('#kw').val()
-		}
-	    function SearchInWeibo() {
-		    window.location.href = 'https://s.weibo.com/weibo?q=' + $('#kw').val()
-		}
-		function SearchInCnblogs() {
-		    window.location.href = 'https://www.baidu.com/s?wd=site:www.cnblogs.com ' + $('#kw').val()
-		}
-		function SearchInGitHub() {
-		    window.location.href = 'https://github.com/search?q=' + $('#kw').val()
-		}
-		function SearchIn163Music() {
-		    window.location.href = 'https://music.163.com/#/search/m/?s=' + $('#kw').val()
-		}
+        function Search(event) {
+            var e = event || window.event || arguments.callee.caller.arguments[0];
+                 if(e && e.keyCode == 13) { // enter 键
+                      // alert("此处回车触发搜索事件");
+                      SearchInBaidu()
+                 }
+        }
+        function SearchInBaidu() {
+            window.location.href = 'https://www.baidu.com/s?wd= ' + $('#kw').val()
+        }
+        function SearchInTieBai() {
+            window.location.href = 'https://www.baidu.com/s?wd=site:tieba.baidu.com ' + $('#kw').val()
+        }
+        function SearchInZhihu() {
+            window.location.href = 'https://www.zhihu.com/search?q=' + $('#kw').val()
+        }
+        function SearchInJuejin() {
+            window.location.href = 'https://juejin.cn/search?query=' + $('#kw').val()
+        }
+        function SearchInDouban() {
+            window.location.href = 'https://www.baidu.com/s?wd=site:www.douban.com ' + $('#kw').val()
+        }
+        function SearchInWeibo() {
+            window.location.href = 'https://s.weibo.com/weibo?q=' + $('#kw').val()
+        }
+        function SearchInCnblogs() {
+            window.location.href = 'https://www.baidu.com/s?wd=site:www.cnblogs.com ' + $('#kw').val()
+        }
+        function SearchInGitHub() {
+            window.location.href = 'https://github.com/search?q=' + $('#kw').val()
+        }
+        function SearchInHelloGitHub() {
+            window.location.href = 'https://www.hellogithub.com/periodical/search/?q=' + $('#kw').val()
+        }
+        function SearchIn163Music() {
+            window.location.href = 'https://music.163.com/#/search/m/?s=' + $('#kw').val()
+        }
         function SearchInToutiao() {
             window.location.href = 'https://toutiao.io/search?q=' + $('#kw').val()
         }
@@ -49,7 +52,7 @@
             window.location.href = 'https://s.geekbang.org/search/c=0/k=' + $('#kw').val() 
             + '/t='
         }
-	</script>
+    </script>
 </head>
 
 <body>
@@ -69,11 +72,12 @@
                             <li><a href="javascript:void(0);" onclick="SearchInZhihu()">知乎</a></li>
                             <li><a href="javascript:void(0);" onclick="SearchInJuejin()">掘金</a></li>
                             <li><a href="javascript:void(0);" onclick="SearchInJike()">极客</a></li>
-                            <li><a href="javascript:void(0);" onclick="SearchInToutiao()">开发者</a></li>
                             <li><a href="javascript:void(0);" onclick="SearchInWeibo()">微博</a></li>
                             <li><a href="javascript:void(0);" onclick="SearchInDouban()">豆瓣</a></li>
+                            <li><a href="javascript:void(0);" onclick="SearchInToutiao()">开发者</a></li>
                             <li><a href="javascript:void(0);" onclick="SearchInCnblogs()">博客园</a></li>
                             <li><a href="javascript:void(0);" onclick="SearchInGitHub()">GitHub</a></li>
+                            <li><a href="javascript:void(0);" onclick="SearchInHelloGitHub()">HelloGitHub</a></li>
                             <li><a href="javascript:void(0);" onclick="SearchIn163Music()">网易音乐</a></li>
                         </ul>
                     </div>

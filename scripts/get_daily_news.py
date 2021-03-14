@@ -40,20 +40,18 @@ categories: [news]
 ''')
     f.write(content)
     f.close()
-    driver.close()
 
 def create_today_news_post():
     today = str(datetime.date.today())[-5:]
     url = 'http://www.xwlbo.com/txt.html'
     driver.get(url)
-    elements = driver.find_element_by_class_name("xwlist").find_elements_by_xpath("./*")
-    for element in elements:
-        date = element.find_element_by_tag_name("span").text
-        title = element.find_element_by_tag_name("a").text[:-7]
-        url = element.find_element_by_tag_name("a").get_property("href")
-        if date == today:
-            objs.append((date, title, url))
-    driver.close()
+    element = driver.find_elements_by_class_name("xwlist")[0]
+    date = element.find_element_by_tag_name("span").text
+    title = element.find_element_by_tag_name("a").text[:-7]
+    url = element.find_element_by_tag_name("a").get_property("href")
+    print(date, title, url)
+    if date == today:
+        objs.append((date, title, url))
 
 if __name__ == "__main__":
     # collect_news_post('http://www.xwlbo.com/txt.html')

@@ -28,6 +28,7 @@ title: 要做的事情清单
 	* 准备面试 - 负载均衡 Nginx
 	* 准备面试 - 高性能IO模式 Reactor Proactor
 	* 准备面试 - 网络框架 Ace
+	* 学习 markdown 基本规则
 
 3. 不重要不紧急
 	* Windows 基本操作
