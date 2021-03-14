@@ -14,4 +14,13 @@ docker rmi $(docker images -f "dangling=true" -q)
 ```sh
 docker rmi -f $(docker images -qa)
 ```
-
+> 修改 Docker 容器的启动参数
+```sh
+docker update --restart=always [container]
+```
+> 修改 docker 容器的目录映射
+```sh
+```
+> 修改 docker 容器的端口映射
+```sh
+```
