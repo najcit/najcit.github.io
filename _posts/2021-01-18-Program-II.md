@@ -1,6 +1,8 @@
 ---
 title: 如何使用 Github Pages
 published: true
+categories: [program]
+tags: [github]
 ---
 
 **想拥有一个自定义的博客, 可以比较方便的写文章和记录总结, 并且方便和免费的.**

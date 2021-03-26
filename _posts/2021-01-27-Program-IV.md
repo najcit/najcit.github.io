@@ -1,6 +1,8 @@
 ---
 title: 如何配置 Github Page 的自定义域名
 published: true
+categories: [program]
+tags: [github]
 ---
 
 在开通了 Github Page 后,可以通过 Github 提供的域名 <username>.github.io 来访问自己的页面, 其实 Github 提供好了自定义的域名的功能, 配置完成后,可以通过自己的域名来访问页面.
