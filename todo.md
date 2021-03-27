@@ -17,9 +17,9 @@ title: 要做的事情清单
 	* 常用工作工具软件总结
 		- sublime
 		- vim
+		- Firefox / Chrome
 
 2. 重要紧急
-	* 准备面试 - 容器 Docker
 	* 准备面试 - 消息队列
 	* 准备面试 - 缓存数据库 Redis
 	* 准备面试 - 数据库 Mysql
@@ -31,10 +31,10 @@ title: 要做的事情清单
 	* 学习 markdown 基本规则
 
 3. 不重要不紧急
-	* Windows 基本操作
-		- color 命令
 	* 做一个培训网站 类似 C语言中文网
 	* 学习前端
 
 4. 不重要紧急
 	* 电影解说 魔女
+	* 每天一个 Widnows 命令 color 命令
+	* 每天一个 Linux 命令
