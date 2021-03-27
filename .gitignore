@@ -2,3 +2,4 @@ _site
 .sass-cache
 .jekyll-cache/
 local-run.bat
+_posts/create_post.py
