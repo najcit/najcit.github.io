@@ -7,13 +7,13 @@ categories: [program]
 # 简介
 sed 是一种流编辑器，也是文本处理中非常好的工具，配合正则使用更强大处理时，把当前处理的行存储在临时缓冲区中，称为“模式空间”，接着用 sed 命令处理缓冲区的内容，完成后输出到屏幕，接着处理下一行。文件内容并没有改变，除非使用 -i 选项。sed 主要用来编辑一个或多个文件，简化对文件的反复操作或者用来编写转换程序等。
 
-# 格式
+# 用法
 ```bash
 sed [options] [command] file(s)
 sed [options] -f [script-file] file(s)
 ```
 
-# 参数
+# 说明
 ```
   -n, --quiet, --silent
                  suppress automatic printing of pattern space
