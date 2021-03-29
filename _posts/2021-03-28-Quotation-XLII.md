@@ -1,7 +1,7 @@
 ---
 title: 从孩子的表现看你教育方式
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 从孩子的表现看你教育方式，如果你的孩子

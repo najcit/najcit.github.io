@@ -1,7 +1,7 @@
 ---
 title: 不经大脑说话
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 很多人喜欢说话不经大脑去伤人，事后又希望别人理解这是ta的坦率和个性，但别人又有什么义务受了你的气还得陪着你笑呢？以为这是坦率和个性，其实只是幼稚和自私。

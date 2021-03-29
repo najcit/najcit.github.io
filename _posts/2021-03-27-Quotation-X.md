@@ -1,7 +1,7 @@
 ---
 title: 夸孩子
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 对孩子的良好行为给予适当称赞是教育孩子重要的方法。但是，称赞，像青霉素一样，绝不能随意用。  

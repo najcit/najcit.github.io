@@ -1,7 +1,7 @@
 ---
 title: 识人术
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 细节暴露性格-识人术

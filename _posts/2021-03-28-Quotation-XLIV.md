@@ -1,7 +1,7 @@
 ---
 title: 好父母标准
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 好父母标准

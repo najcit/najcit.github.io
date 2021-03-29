@@ -1,7 +1,7 @@
 ---
 title: 幸福夫妻都会做的9件事
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 幸福夫妻都会做的9件事

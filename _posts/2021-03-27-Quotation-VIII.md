@@ -1,7 +1,7 @@
 ---
 title: 假如
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 假如你记不住你为了爱情而做出来的一件最傻的事，你就不算真正恋爱过；

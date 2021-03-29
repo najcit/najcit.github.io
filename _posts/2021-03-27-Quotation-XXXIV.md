@@ -1,7 +1,7 @@
 ---
 title: 有助睡眠的七个方法
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 有助睡眠的七个方法

@@ -1,7 +1,7 @@
 ---
 title: 四大名著
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 老师：如何用一句话形容自己读过四大名著？  

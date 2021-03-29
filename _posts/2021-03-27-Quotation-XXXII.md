@@ -1,7 +1,7 @@
 ---
 title: 中国人的快乐
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 什么偷走了中国人的快乐

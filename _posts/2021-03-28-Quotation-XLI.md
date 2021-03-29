@@ -1,7 +1,7 @@
 ---
 title: 研究发现
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 有研究发现：  

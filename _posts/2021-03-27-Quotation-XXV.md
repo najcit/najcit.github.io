@@ -1,7 +1,7 @@
 ---
 title: 养孩子
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 “穷养” 要养出孩子的坚强不息、独立自主、克制物欲、勤俭持家。  

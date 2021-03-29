@@ -1,7 +1,7 @@
 ---
 title: 他不再爱你的三个征兆
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 1. 他突然对你变好  

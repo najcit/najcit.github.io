@@ -1,7 +1,7 @@
 ---
 title: 孩子学习最佳期
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 孩子学习最佳期

@@ -1,7 +1,7 @@
 ---
 title: 另一半
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 如果你真的遇见一个好的另一半，能搞就搞一下，搞完了就什么都明白了。别磨磨唧唧的，时不可待，不敢说出来的爱，还是因为不够爱，怕丢脸怕受伤害，这些既然比爱更重要，那就是不够爱。

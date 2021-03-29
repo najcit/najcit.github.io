@@ -1,7 +1,7 @@
 ---
 title: 早餐喝什么最养生
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 早餐喝什么最养生

@@ -1,7 +1,7 @@
 ---
 title: 高情商女人的5大恋爱观
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 高情商女人的5大恋爱观

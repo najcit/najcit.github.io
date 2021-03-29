@@ -1,7 +1,7 @@
 ---
 title: 艰难的时光
 published: true
-categories: quotation
+categories: [quotation]
 ---
 
 每个人都会有一段异常艰难的时光，生活的窘迫，工作的失意，学业的压力，爱的惶惶不可终日。挺过来的，人生就会豁然开朗；挺不过来的，时间也会教会你怎么与它们握手言和，所以你都不必害怕。
