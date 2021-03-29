@@ -1,7 +1,7 @@
 ---
-title: 先进工具
+title: 水滴石穿
 published: true
 categories: [quotation]
 ---
 
-在历史上的任何时期，掌握着先进工具的人也就掌握着未来
+只要豁上命，准行，说到底也就是一句话，水滴石穿罢了。
