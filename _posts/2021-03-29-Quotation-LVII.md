@@ -1,7 +1,7 @@
 ---
-title: 美丽
+title: 水滴石穿
 published: true
 categories: [quotation]
 ---
 
-美丽的女子加上美丽的思想就是上帝最满意的作品。
+只要豁上命，准行，说到底也就是一句话，水滴石穿罢了。

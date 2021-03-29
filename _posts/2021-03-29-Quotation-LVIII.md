@@ -1,7 +1,7 @@
 ---
-title: 有时候
+title: 美丽
 published: true
 categories: [quotation]
 ---
 
-有时候，你简直不明白是怎么回事，你说的越是真的，也越像假的，越让人不能相信。
+美丽的女子加上美丽的思想就是上帝最满意的作品。
