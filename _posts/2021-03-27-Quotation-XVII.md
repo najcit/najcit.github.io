@@ -1,7 +1,7 @@
 ---
-title: 付出与代价
+title: 坦然
 published: true
 categories: [quotation]
 ---
 
-有人说有结果的付出叫付出，没结果的付出叫代价
+多看书，多走路，心情好了上班路上都是旅行…

@@ -1,7 +1,7 @@
 ---
-title: 我终究会老
+title: 有时候
 published: true
-categories: [[quotation]]
+categories: [quotation]
 ---
 
-我终究会老，但我会努力老的慢一些，拖住时光的脚步，只为让你再看一眼，我曾经骄傲的容颜。
+有时候，你简直不明白是怎么回事，你说的越是真的，也越像假的，越让人不能相信。

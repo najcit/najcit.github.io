@@ -1,7 +1,7 @@
 ---
-title: 争
+title: 痛苦
 published: true
 categories: [quotation]
 ---
 
-争的是理，输的是情，伤的是自己。
+只有痛苦了才能真正的学会
