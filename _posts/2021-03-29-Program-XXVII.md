@@ -1,5 +1,5 @@
 ---
-title: 每天学一个 Linux 命令 (2)：awk
+title: 每天学一个 Linux 命令：awk
 published: true
 categories: [program]
 ---

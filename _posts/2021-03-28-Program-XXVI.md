@@ -1,5 +1,5 @@
 ---
-title: 每天学一个 Linux 命令 (1)：sed
+title: 每天学一个 Linux 命令：sed
 published: true
 categories: [program]
 ---
