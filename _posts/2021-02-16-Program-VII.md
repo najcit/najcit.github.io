@@ -1,7 +1,7 @@
 ---
 title: 一个简单的多项式曲线拟合的实现
 published: true
-categories: [program]
+categories: [program, algothrim]
 tags: [fit]
 ---
 
