@@ -9,13 +9,12 @@ title: 要做的事情清单
 	* 小说 见家长
 	* 小说 概率杀人
 	* 小说 杀与被杀
-<!-- 	* 整理编程电子书
+ 	* 整理编程电子书
 		- C/C++：https://xai.lanzous.com/b0eptxz1i
 		- JavaScript： https://xai.lanzous.com/b0epqfdji
 		- Go：https://xai.lanzous.com/b0eptihti
 		- Java：https://xai.lanzous.com/b0eprkyzg
 		- Python：https://xai.lanzous.com/b0epqonbe
- -->	
  	* 常用工作工具软件总结
 		- sublime 常用插件
 		- vs code 常用插件
@@ -33,11 +32,13 @@ title: 要做的事情清单
 	* 面试 - 网络框架 Ace
 	* 面试 - 网络库 libevent、libev、libuv
 	* 面试 - 网络框架 boost::asio
+	* stl get_allocator 的含义
 
 3. 不重要不紧急
 	* 做培训网站(C 语言中文网) 
 	* 学习 css 
 	* 学习 markdown
+	* C++ 标准库复习
 
 4. 不重要紧急
 	* 电影解说 魔女
