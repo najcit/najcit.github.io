@@ -21,14 +21,15 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
-/* General & 'Reset' Stuff */
-
 .container {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
 }
 
+.by-line {
+  margin-bottom: 40px;
+}
 
 section {
   display: block;
@@ -42,12 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 li {
   line-height: 1.4 ;
 }
-
-/* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
-*/
 
 header {
   background: rgba(0, 0, 0, 0.1);

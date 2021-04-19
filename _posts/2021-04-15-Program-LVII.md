@@ -67,37 +67,23 @@ gdb [参数] --args 程序 [程序参数]              #调试命令行参数
 
 ## 命令
 ```
-break [file:]function       Set a breakpoint at function (in file).
-run [arglist]               Start your program (with arglist, if specified).
-bt  Backtrace:              display the program stack.
-print expression            Display the value of an expression.
-continue                    Continue running your program (after stopping, e.g. at a breakpoint).
-next                        Execute next program line (after stopping); step over any function calls in the line.
-step
-finish
-edit [file:]function        look at the program line where it is presently stopped.
-list [file:]function        type the text of the program in the vicinity of where it is presently stopped. Execute next program line (after stopping); step into any function calls in the line.
-help [name]                 Show information about GDB command name, or general information about using GDB.
-quit                        Exit from GDB.
-
-next                
-step                
-continue                
-print               
-Backtrace       bt      
-finish              
-quit                
-wachtpoint              
-catchpoint              
-delete      d       
-clear   清除所有已定义的停止点         
-disable     dis     
-enable              
-ignore      c 或者 fg     
-until       u       
-frame       f       
-up              
-down                
+break [file:]function|line_number       在文件内部的函数或行数设置断点
+delete bookmark|breakpoints|checkpoint  删除 bookmark|breakpoints|checkpoint等信息
+clear                                   删除所有的断点
+disable breakpoints                     禁用断点
+enable breakpoints                      启用断点
+ignore breakpoints                      忽略断点
+start [args]                            启动程序带参数或者不带参数，并运行临时断点到 main 函数
+run [args]                              启动程序带参数或者不带参数
+backtrace / where                       程序中的当前位置和表示如何到达当前位置的栈跟踪
+print EXPRESSION                        打印 EXPRESSION 数值
+continue                                继续运行程序
+next                                    下一步继续运行程序，不进入函数内部
+stop                                    下一步继续运行程序，进入函数内部
+edit [file:]function|line_number        编辑文件内部的函数/行数的内容                    
+list [file:]function|line_number        显示文件内部的函数/行数的内容
+help [CMD]                              查看 CMD 的文档
+quit                                    退出 GDB
 ```
 
 ## 案例
