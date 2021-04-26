@@ -27,9 +27,17 @@ column [-entx] [file]
 
 ## 示例
 ```
-mount | column -tn -s ' ' # 以空格为分隔符，以表格的形式输出 mount 的内容
-tmpfs        on  /mnt/wsl                   type  tmpfs        (rw,relatime)
-tools        on  /init                      type  9p           (ro,relatime,dirsync,aname=tools;fmask=022,loose,access=client,trans=fd,rfd=6,wfd=6)
-none         on  /dev                       type  devtmpfs     (rw,nosuid,relatime,size=4859524k,nr_inodes=1214881,mode=755)
-······
+head -n 5 /etc/passwd                          # 查看 /etc/passwd 的前五行内容
+root:x:0:0:root,02,02,03,04:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+
+head -n 5 /etc/passwd | column -tn -s :        # 以 : 为分隔符，表格的形式输出内容
+root    x  0  0      root,02,02,03,04  /root      /bin/bash
+daemon  x  1  1      daemon            /usr/sbin  /usr/sbin/nologin
+bin     x  2  2      bin               /bin       /usr/sbin/nologin
+sys     x  3  3      sys               /dev       /usr/sbin/nologin
+sync    x  4  65534  sync              /bin       /bin/sync
 ```
