@@ -6,10 +6,12 @@ categories: [program]
 
 ## 简介
 ```
+copy 将一个或多个已存在的文件复制到其他位置，或者将多个文件合并成一个文件
 ```
 
 ## 用法
 ```
+copy [OPTIONS] [SOURCE] [DESTINATION]
 ```
 
 ## 参数
