@@ -11,12 +11,13 @@ title: 要做的事情清单
 		- Go：https://xai.lanzous.com/b0eptihti
 		- Java：https://xai.lanzous.com/b0eprkyzg
 		- Python：https://xai.lanzous.com/b0epqonbe
- 	* 常用工作工具软件总结
+ 	* 常用工具软件总结
 		- sublime 常用插件
 		- vs code 常用插件
 		- Firefox 常用插件
 		- Chrome 常用插件
-	* 电影解说 魔女 
+	* 每天一个 Widnows 命令
+	* 每天一个 Linux 命令
 
 2. 重要紧急
 	* 面试 - 消息队列
@@ -35,7 +36,6 @@ title: 要做的事情清单
 	* 学习 css 
 	* 学习 markdown
 	* C++ 标准库复习
+	* 电影解说 魔女 
 
 4. 不重要紧急
-	* 每天一个 Widnows 命令
-	* 每天一个 Linux 命令
