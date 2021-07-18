@@ -45,5 +45,11 @@ title: 工具
 ## 14. [前端神器](https://www.pintuer.com)
 > 国产跨屏响应式前端框架
 
-## 15. [智能放大图片](https://bigjpg.com/)
+## 15. [智能放大图片](https://bigjpg.com)
 > 使用最新人工智能深度学习技术——深度卷积神经网络，实现图片的无损放大
+
+## 16. [在线 PDF 文档转换成 Word 文档 ](http://pdfdo.com/pdf-to-word.aspx)
+> 能快速方便的把 PDF 文件转换成 Word 文件，简单、高效
+> 
+## 17. [在线强大的 PDF 编辑器](https://pdfcandy.com/)
+> 拥有各种你能想到和想不到的关于 PDF 的操作功能
