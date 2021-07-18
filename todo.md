@@ -5,7 +5,7 @@ title: 要做的事情清单
 
 # Todo List
 1. 重要不紧急
- 	* 整理编程电子书
+	* 整理编程电子书
 		- C/C++：https://xai.lanzous.com/b0eptxz1i
 		- JavaScript： https://xai.lanzous.com/b0epqfdji
 		- Go：https://xai.lanzous.com/b0eptihti
