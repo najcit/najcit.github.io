@@ -50,7 +50,15 @@ title: 工具
 
 ## 16. [在线 PDF 文档转换成 Word 文档 ](http://pdfdo.com/pdf-to-word.aspx)
 > 能快速方便的把 PDF 文件转换成 Word 文件，简单、高效
-> 
 
 ## 17. [在线强大的 PDF 编辑器](https://pdfcandy.com/)
 > 拥有各种你能想到和想不到的关于 PDF 的操作功能
+
+## 18. [编程语言在线调试器](https://pythontutor.com/visualize.html)
+> 支持 C++、Python、Java、Javascript等语言在线调试
+
+## 19. [在线强大的编程语言调试器](https://pythontutor.com/visualize.html)
+> 支持 C++、Python、Java、Javascript等语言在线调试
+
+## 20. [数据结构可视化](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+> 可视化经典的数据结构运行过程演化
